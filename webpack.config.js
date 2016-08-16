@@ -1,4 +1,5 @@
 var path = require('path');
+var autoprefixer = require('autoprefixer');
 
 module.exports = {
     entry: './src/index.js',
@@ -9,10 +10,8 @@ module.exports = {
     },
     module: {
         loaders: [
-            { test: /\.css$/, loader: "style!css" },
-            { test: /\.scss$/, loader: "style!css!sass"},
+            { test: /(\.css|\.scss)$/, loaders: ['style', 'css?sourceMap', 'postcss', 'sass?sourceMap']},
             { test: /\.js$/, loader: 'babel', exclude: /(node_modules|bower_components)/, query: { cacheDirectory: true, presets: ['es2015'], plugins: ['transform-runtime']}}
         ]
-    }
-    
+    },
 }
