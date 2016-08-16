@@ -1,4 +1,4 @@
-This is a minimal Webpack example with hot reload.  
+This is a simple Webpack example with hot reload.  
 To start the development server, type:
 
     npm install
