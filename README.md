@@ -16,10 +16,14 @@ Open http://localhost:8080/ and start editing index.js, greeter.js or style.scss
 ## What's missing?
 
  - no production build yet (coming soon ☺)
+ - popular frameworks
 
 ## Why?
 
-With this boilerplate, you can just use the cool new features like ES2015, modules, SCSS and hot reloads; with minimal configuration. The choice of preprocessors are based on my favorite choices that I usually use in my [demos](https://codepen.io/terabaud) at [CodePen](https://codepen.io/).
+It is a learning-by-doing project in order to learn the basics of Webpack and HMR. 
+I wanted to keep things as simple as possible, but I also wanted to use the preprocessors that I love to use at [CodePen](https://codepen.io/terabaud). 
+
+So, this boilerplate is actually useful to me to create new stuff ☺.
 
 ## License
 
