@@ -23,7 +23,7 @@ Open http://localhost:8080/ and start editing index.js, greeter.js or style.scss
 It is a learning-by-doing project in order to learn the basics of Webpack and HMR. 
 I wanted to keep things as simple as possible, but I also wanted to use the preprocessors that I love to use at [CodePen](https://codepen.io/terabaud). 
 
-So, this boilerplate is actually useful to me to create new stuff ☺.
+So, this boilerplate is actually useful for me to create new stuff ☺.
 
 ## License
 
