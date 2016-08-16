@@ -10,7 +10,7 @@ Open http://localhost:8080/ and start editing index.js, greeter.js or style.scss
 
  - [SCSS](http://sass-lang.com)
  - [PUG](https://www.npmjs.com/package/pug) (formerly [jade](http://jade-lang.com), it was renamed due to trademark issues)
- - [Babel](http://babeljs.io) (use modern JavaScript today)
+ - [Babel](http://babeljs.io) (use modern JavaScript today) and ES2015 modules
  - [Autoprefixer](https://www.npmjs.com/package/autoprefixer)
 
 ## What's missing?
@@ -19,7 +19,8 @@ Open http://localhost:8080/ and start editing index.js, greeter.js or style.scss
 
 ## Why?
 
-This is a basic Webpack setup that uses the preprocessors that I usually use in my [demos](https://codepen.io/terabaud) at [CodePen](https://codepen.io/). 
+With this boilerplate, you can just use the cool new features like ES2015, modules, SCSS and hot reloads -- with minimal configuration.   
+The choice of preprocessors are based on my favorite choices that I usually use in my [demos](https://codepen.io/terabaud) at [CodePen](https://codepen.io/).
 
 ## License
 
