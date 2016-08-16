@@ -16,3 +16,13 @@ Open http://localhost:8080/ and start editing index.js, greeter.js or style.scss
 ## What's missing?
 
  - no production build yet (coming soon ☺)
+
+## Why?
+
+This is a basic Webpack setup that uses the preprocessors that I usually use in my [demos](https://codepen.io/terabaud) at [CodePen](https://codepen.io/). 
+
+## License
+
+WTFPL/Public Domain/whatever. You can do whatever you want with this stuff. 
+
+Feel free to buy me a beer if we meet some day. ☺
