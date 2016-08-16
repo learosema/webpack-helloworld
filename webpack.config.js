@@ -14,4 +14,5 @@ module.exports = {
             { test: /\.js$/, loader: 'babel', exclude: /(node_modules|bower_components)/, query: { cacheDirectory: true, presets: ['es2015'], plugins: ['transform-runtime']}}
         ]
     },
+    postcss: function() { return [autoprefixer] }
 }
