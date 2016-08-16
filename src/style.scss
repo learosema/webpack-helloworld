@@ -1,10 +1,20 @@
-$primaryColor: #333344;
-$secondaryColor: #77ff77;
+$primaryColor: #334455;
+$secondaryColor: #ffff77;
 
 body {
     background: $primaryColor;
     color: $secondaryColor;
     font-family: monospace;
-    font-size: 32px;
+    font-size: 10vw;
     filter: blur(1px);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    margin: 0;
 }
