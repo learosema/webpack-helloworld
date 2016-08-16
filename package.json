@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build-js && npm run build-pug",
     "build-js": "cross-env NODE_ENV=production webpack --config webpack.config.js",
-    "build-pug": "pug < src/index.pug > build/index.html"
+    "build-pug": "pug src/index.pug --out build",
+    "start": "npm run build-pug && webpack-dev-server --hot --inline --content-base build/"
   },
   "author": "",
   "license": "ISC",
@@ -23,7 +24,8 @@
     "pug-cli": "^1.0.0-alpha6",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.1"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "babel-runtime": "^6.11.6"

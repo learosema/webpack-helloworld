@@ -1,5 +1,5 @@
 export default class Greeter {
     sayHello() {
-        document.write("Hello, World!");
+        document.write("Hallo, World!");
     }
 }
