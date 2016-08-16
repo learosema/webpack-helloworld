@@ -24,5 +24,3 @@ With this boilerplate, you can just use the cool new features like ES2015, modul
 ## License
 
 WTFPL/Public Domain/whatever. You can do whatever you want with this stuff. 
-
-Feel free to buy me a beer if we meet some day. ☺
